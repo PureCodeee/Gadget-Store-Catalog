@@ -6,6 +6,41 @@ body {
   margin: 0 auto;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  background: #ffffff;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.logo {
+  font-size: 24px;
+  margin: 0;
+}
+
+.header nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #2c2c2c;
+}
+
+.header nav a:hover {
+  color: #3056ff;
+}
+
 .catalog {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -133,6 +168,14 @@ button:active {
 
 .close:hover {
   color: red;
+}
+
+.footer {
+  margin-top: 40px;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  color: #666;
 }
 
 @media (min-width: 2000px) {
